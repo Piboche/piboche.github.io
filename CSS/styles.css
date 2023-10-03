@@ -1,6 +1,8 @@
 @import "navbar.css";
 @import "footer.css";
 @import "contact.css";
+@import "form.css";
+
 
 
 * {
@@ -11,32 +13,45 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  height: 100%;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.about-me {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
+  background-color: bisque;
 }
 
 h1 {
   margin: 0;
 }
 
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
 h2 {
   margin-bottom: 10px;
 }
 
-/* footer {
-  color: black;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-} */
+@media only screen and (max-width: 600px) {
+  /* Adjust the maximum width as needed for your design */
+  .nav {
+    text-align: center;
+  }
 
-p:hover {
-  background-color: blanchedalmond;
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
 }

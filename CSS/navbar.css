@@ -5,24 +5,24 @@
     padding: 1rem; /* Adjust padding for smaller screens */
   }
 }
-nav {
+.nav {
   top: 0;
   right: 0;
   margin: auto;
 }
 
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
 }
 
-nav ul li {
+.nav ul li {
   display: inline;
   padding: 1rem;
 }
 
-nav a {
+.nav a {
   position: relative;
   color: #000;
   text-decoration: none;
@@ -32,7 +32,7 @@ nav a:hover {
   color: #000;
 }
 
-nav a::before {
+.nav a::before {
   content: "";
   position: absolute;
   display: block;
@@ -45,11 +45,11 @@ nav a::before {
   transition: transform 0.3s ease;
 }
 
-nav a:hover::before,
+.nav a:hover::before,
 a:active::before {
   transform: scaleX(1);
 }
 
-nav a:active {
+.nav a:active {
   bottom: -4px;
 }

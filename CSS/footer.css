@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: black;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.footer ul a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+}
