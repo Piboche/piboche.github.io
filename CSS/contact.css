@@ -1,18 +1,29 @@
-.socials {
-  text-align: center;
-  width: 5rem;
-  padding: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container-contact {
+  display: flex;
+  margin: auto;
+  width: 80%;
 }
 
-.socials a {
+.flex-contact {
+  flex: 1;
+  border: 2px solid blue;
+  margin-top: 20px;
+}
+
+.flex-contact:first-child {
+  margin-right: 20px;
+}
+
+#socials {
+  align-items: center;
+  padding: 5px;;
+}
+
+#socials a {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 1.3rem;
-  display: block;
+  display: flex;
   color: #000;
 }
 
